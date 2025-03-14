@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LifeVault</title>
+    <link rel="stylesheet" href="frontend/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 class="logo">LifeVault</h1>
+        <nav>
+            <button id="loginBtn">Login</button>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main-content">
+        <div class="info">
+            <h2>Secure Your Life's Essentials</h2>
+            <p>LifeVault helps you securely store and manage important files, passwords, and personal data all in one place.</p>
+            <ul>
+                <li>🔒 Secure Cloud Storage</li>
+                <li>📂 Easy File Organization</li>
+                <li>⚡ Quick Access Anytime</li>
+                <li>📜 Encrypted Notes & Documents</li>
+            </ul>
+        </div>
+        
+        <div class="login-container">
+            <form id="loginForm" class="form">
+                <h2>Login</h2>
+                <input type="email" id="loginEmail" placeholder="Email" required>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <p id="loginMessage"></p>
+            </form>
+        </div>
+    </section>
+
+    <script src="frontend/script.js"></script>
+</body>
+</html>
